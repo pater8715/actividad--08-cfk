@@ -1,9 +1,9 @@
 let imc = 0
 let estatura = 180
-let peso = 50
+let peso = 74
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
-        imc += 10000 * peso / estatura ** 2
+        imc = 10000 * peso / estatura ** 2
         basic.showNumber(imc)
         if (imc < 18.5) {
             basic.showString("Delgado")
