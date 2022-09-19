@@ -7,7 +7,7 @@ basic.forever(function () {
         basic.showNumber(imc)
         if (imc < 18.5) {
             basic.showString("Delgado")
-        } else if (imc > 18.5 && imc <= 25) {
+        } else if (imc >= 18.5 && imc <= 25) {
             basic.showString("Saludable")
         } else if (imc > 25 && imc <= 30) {
             basic.showString("Sobrepeso")
